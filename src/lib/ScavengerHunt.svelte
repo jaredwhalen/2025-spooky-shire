@@ -164,10 +164,11 @@
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
+		background-color: #0a0a0a;
 	}
 
 	.game-container {
-		min-height: 100vh;
+		min-height: 100dvh;
 		background: linear-gradient(
 			135deg,
 			#000000 0%,
