@@ -167,7 +167,7 @@
 	}
 
 	.game-container {
-		min-height: 100dvh;
+		min-height: 100vh;
 		background: linear-gradient(
 			135deg,
 			#000000 0%,
