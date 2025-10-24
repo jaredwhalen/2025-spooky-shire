@@ -84,7 +84,7 @@
 <div class="game-container">
 	{#if gameState === "start"}
 		<div class="start-screen">
-			<img src="/banner.png" />
+			<img src="banner.jpg" alt="The Quest of the Spooky Shire" />
 			<div class="title-section">
 				<h1 class="main-title">{gameData.title}</h1>
 				<h2 class="subtitle">{gameData.subtitle}</h2>
