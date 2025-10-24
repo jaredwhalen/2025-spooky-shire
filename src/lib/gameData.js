@@ -51,7 +51,7 @@ export const gameData = {
 		},
 		{
 			id: 6,
-			question: "Back in the Green Dragon Inn, who is that behind the bar and has the heart of Sam?",
+			question: "Back in the Green Dragon Inn, who is that behind the bar who stole Sam's heart?",
 			answer: "Rosie Cotton",
 			alternatives: ["Rosie", "Rosie the barmaid"],
 			successMessage: "Home at last! Rosie greets you with a smile, and all is well in the Shire once more.",

@@ -132,10 +132,12 @@
 						<div class="success-message">
 							{currentLocation.successMessage}
 						</div>
-						<div class="hint-section">
-							<h4>Your next clue:</h4>
-							<p class="hint">{currentLocation.hint}</p>
-						</div>
+						{#if !isLastLocation}
+							<div class="hint-section">
+								<h4>Your next clue:</h4>
+								<p class="hint">{currentLocation.hint}</p>
+							</div>
+						{/if}
 						<button class="next-button" onclick={nextLocation}>
 							{isLastLocation
 								? "Complete Quest"
@@ -168,7 +170,7 @@
 	}
 
 	.game-container {
-		min-height: 100dvh;
+		min-height: 100vh;
 		background: linear-gradient(
 			135deg,
 			#000000 0%,
