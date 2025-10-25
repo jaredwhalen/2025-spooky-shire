@@ -44,7 +44,7 @@ export const gameData = {
 			id: 5,
 			question: "What seeing-stone does Sauron use to influence those who gaze upon his tower?",
 			answer: "Palantír",
-			alternatives: ["palantir", "seeing-stone"],
+			alternatives: ["palantir", "seeing-stone", "palantíri", "palantiri"],
 			successMessage: "The stone’s hold is broken! The Eye’s whispers cannot sway you.",
 			hint: "The fire cools and the shadows flee—return now to the peace of the Shire.",
 			locationName: "Barad-dûr"
