@@ -42,10 +42,10 @@ export const gameData = {
 		},
 		{
 			id: 5,
-			question: "High above the black land, what watchful presence gazes unblinking from the dark tower?",
-			answer: "The Eye of Sauron",
-			alternatives: ["Sauron", "the eye", "the great eye"],
-			successMessage: "The Eye falters, its gaze broken! The shadow begins to crumble.",
+			question: "What seeing-stone does Sauron use to influence those who gaze upon his tower?",
+			answer: "Palantír",
+			alternatives: ["palantir", "seeing-stone"],
+			successMessage: "The stone’s hold is broken! The Eye’s whispers cannot sway you.",
 			hint: "The fire cools and the shadows flee—return now to the peace of the Shire.",
 			locationName: "Barad-dûr"
 		},
