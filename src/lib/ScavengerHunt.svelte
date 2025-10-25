@@ -165,8 +165,10 @@
 	:global(body) {
 		margin: 0;
 		padding: 0;
-		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: auto;
 		background-color: #0a0a0a;
+		min-height: 100vh;
 	}
 
 	.game-container {
@@ -185,6 +187,7 @@
 		box-sizing: border-box;
 		position: relative;
 		overflow-x: hidden;
+		overflow-y: visible;
 	}
 
 	.game-container::before {
