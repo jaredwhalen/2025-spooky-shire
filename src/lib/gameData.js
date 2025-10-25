@@ -37,17 +37,17 @@ export const gameData = {
 			answer: "Rohan",
 			alternatives: ["the riders of rohan", "the rohirrim", "the horse-lords"],
 			successMessage: "The Riders of Rohan answer the call! Hope thunders across the plains toward Gondor!",
-			hint: "The fires of war burn low—seek the mountain of fire where the fate of all rests.",
+			hint: "The fires of war burn low. Seek the Dark Tower where the Eye keeps watch",
 			locationName: "Gondor"
 		},
 		{
 			id: 5,
-			question: "When the Ringbearer can go no further, who carries him up the slopes of Mount Doom?",
-			answer: "Samwise Gamgee",
-			alternatives: ["Sam", "Sam Gamgee", "Samwise"],
-			successMessage: "Sam’s loyalty endures where strength fails. Friendship triumphs over all.",
+			question: "High above the black land, what watchful presence gazes unblinking from the dark tower?",
+			answer: "The Eye of Sauron",
+			alternatives: ["Sauron", "the eye", "the great eye"],
+			successMessage: "The Eye falters, its gaze broken! The shadow begins to crumble.",
 			hint: "The fire cools and the shadows flee—return now to the peace of the Shire.",
-			locationName: "Mount Doom"
+			locationName: "Barad-dûr"
 		},
 		{
 			id: 6,
